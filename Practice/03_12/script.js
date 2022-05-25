@@ -6,3 +6,10 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+
+import Desk from "./Desk.js";
+
+const myDesk = new Desk("black", "wood", false, "9V", 2);
+
+console.log("My desk:", myDesk);
+console.log("Desk color:", myDesk.color);
